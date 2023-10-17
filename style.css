@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: #ccc;
+    text-align: center;
+    position: relative;
+}
+h2::after{
+    content: "";
+    background-color: #09c;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    width: 40%;
+    height: 2px;
+}
+h2::before {
+    content: "";
+    background-color: #09c;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 40%;
+    height: 2px;
+}
+
+h3{
+   
+    border: 4px solid teal;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+h3::after {
+    content: "";
+    background-color:#fff;
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+h3::before {
+    content: "";
+    background-color: teal;
+    position: absolute;
+    top: 80%;
+    left: 35px;
+    width: 4px;
+    height: 40px;
+    z-index: 1;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+.o-letter{
+    color: #09c;
+    font-size: 70px;
+}
+.container{
+    clear: both;
+}
+
+.member{
+    width: 33%;
+   float: left;
+
+    background-color: tomato;
+    text-align: center;
+    margin: 2px;
+}
+img{
+    width: 100%;
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+
+.test{
+    background-color: #09c;
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+    padding: 50px 50px;
+    border: 5px black solid;
+    border-top-right-radius: 20px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+ }
+.test2{
+    background-color: #09c;
+    margin:40px auto;
+    width:  200px;
+    height: 200px;
+    padding: 50px 50px;
+    border:5px black solid;
+   border-top-right-radius: 20px;
+
+text-align: center;
+justify-content: center;
+overflow: scroll;
+
+    
+}
+.test3{
+    width: 200px;
+    height: 100px;
+    background-color: #09c;
+    transition:2s width,2s height;
+}
+.test3:hover{
+    width: 100%;
+    height: 500px;
+
+}
+.profile{
+    
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.profile img{
+    width: 25%;
+    border-radius: 50%;
+
+
+}
+.profile button{
+    background-color: black;
+    color: #fff;
+    border:none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+p{
+    font-family: 'Caveat', cursive;
+}
+
+
+.member{
+    background-color: tomato;
+    text-align: center;
+    width: 25%;
+    border: 5px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+.member img{
+    width: 100%;
+    transition: transform 1s 1s;
+}
+.member-caption{
+    background-color:rgba(0, 55, 107, 0.6);
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    transition: opacity  1s, transform 1s;
+
+}
+.member:hover img{
+  
+    transform: scale(1.1);
+}
+.member:hover .member-caption{
+top: 0%;
+opacity: 1;
+transform: rotate(360deg);
+
+}
+.member h4{
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    left: 120%;
+    background-color: rgb(0, 55, 107);
+    transition: left 1s 2s;
+}
+.member:hover h4{
+    left: 0;
+}
+.member p {
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    left: 120%;
+   font-size: 18px;
+    transition: left 1s 2s;
+}
+.member:hover p {
+    left: 0;
+}
+
+
+.one {
+    background-color: tomato;
+    color: black;
+}
+
+.two {
+    background-color: #09c;
+    color: black;
+}
+
+.parent {
+    width: 50%;
+    height: 400px;
+    background-color: rgb(60, 60, 90);
+}
+
+.child {
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 100%;
+}
+
+a {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.parent{
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.child{
+    width:30%;
+    height: 100px;
+}
+.child1 {
+    background-color: #09c;
+}.child2 {
+    background-color: greenyellow;
+}.child3 {
+    background-color: teal;
+}.child4 {
+    background-color: palevioletred;
+}.child5 {
+    background-color: gold;
+}
+
+ .w-100{
+    width: 700px;
+    height: 400px;
+}

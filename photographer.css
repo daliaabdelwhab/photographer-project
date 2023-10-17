@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 99999;
+    padding: 10px 20px;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 5px 20px;
+}
+ul li a{
+color: #fff;
+}
+li:hover a{
+    color: #ff305b;
+   
+}
+li:hover{
+    transform: scale(1.6);
+    font-weight: bold;
+}
+.header{
+    height: 100vh;
+    background-image: url(images/hghggdcf.jpeg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+.header h1{
+    font-size: 70px;
+    font-weight: 900px;
+    color: #ff305b;
+}
+h2{
+    color: #ff305b;
+}
+.layer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   margin: 100px 0px;
+}
+.header p::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: "|";}
+    5%{content: "a|";}
+    10%{content: "an|";}
+    15%{content: "and|";}
+    20%{content: "and p|";}
+    25%{content: "and ph|";}
+    30%{content: "and pho|";}
+    35%{content: "and phot|";}
+    40%{content: "and photo|";}
+    45%{content: "and photog|";}
+    50%{content: "and photogr|";}
+    55%{content: "and photogra|";}
+    60%{content: "and photograp|";}
+    65%{content: "and photograph|";}
+    70%{content: "and photography|";}
+    75%{content: "and photograph|";}
+    56%{content: "and photograp|";}
+    67%{content: "and photograph|";}
+    71%{content: "and photograp|";}
+    73%{content: "and photogra|";}
+    75%{content: "and photogr|";}
+    77%{content: "and photog|";}
+    81%{content: "and photo|";}
+    83%{content: "and phot|";}
+    85%{content: "and pho|";}
+    87%{content: "and ph|";}
+    91%{content: "and p|";}
+    93%{content: "and|";}
+    95%{content: "an|";}
+    97%{content: "a|";}
+    100%{content: "|";}
+
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    color: #000;
+    font-size: 30px;
+}
+
+i:hover {
+    color: #ff305b;
+
+}
+
+i:hover {
+    transform: scale(1.6);
+    font-weight: bold;
+}
+.client-img{
+    width: 80px;
+    border: solid 3px #f4f4f4;
+    transform: translateY(50%);
+}
+.client-feedback{
+    border:solid 2px #f4f4f4;
+}
+
+
+#shadow{
+    color: lightgray;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    z-index: -999;
+}
+.client-feedback .brdr{
+    width: 10%;
+    height: 2px;
+    background-color: #ff305b;
+    margin: 10px auto;
+}
+.carousel-indicators [data-bs-target]
+{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    text-indent: 0;
+
+}
